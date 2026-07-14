@@ -1,0 +1,17 @@
+# Credenciais - nunca sobe pro Git
+.env
+
+# Dados baixados (zip e csvs) - pesados e vem da fonte oficial
+*.zip
+*.csv
+data/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Ambiente virtual (se usar)
+venv/
+env/
+.venv/
